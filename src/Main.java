@@ -1,15 +1,18 @@
-/*
-The extra code displayed here was just me playing around with things
-I learned on recursion and figuring out that I did not need to show the full sequence but just the
-tenth term after reading the instructions I still wanted to keep it as to still show my attempt of it
- */
+/** Alondra
+ * CEN4802 - Software Integration, Configuration, and Testing
+ * Assignment 1
+        * 17 January 2026
+        */
+//The extra code displayed here was just me exploring
 public class Main {
+    /**
+     * Main Method. Calls Fibonacci Method.
+     * @param args - Is an Array of String containing vairables
+     */
     //private static long[] fibonacciCache;
     public static void main(String[] args) {
         int n = 10 ;
         System.out.println("The " + n + " th term of the fibonacci sequence is " + fibonacci(n));
-
-
         //fibonacciCache = new long[n + 1];
         //This is so it prints the sequence not just the 10th number, and to do that we need a for loop
         //for (int i = 0; i <= n; i++) {
@@ -17,6 +20,12 @@ public class Main {
         //System.out.println (fibonacci(i) + " ");
         //System.out.println("The term of the fibonacci sequence is y = " + fibonacci(i));
     }
+
+    /**
+     * Is Performing the Fibonacci Sequence, given the variable of n.
+     * @param n - Number nth of the sequence and the method is trying to find the number of it.
+     * @return - Number in the nth position is defined because of its parameter.
+     */
     /* The method long is used to calculate the fibonacci number; but long has a limit which is 9 quintillion and work
     until the 92nd fibonacci number, so for this case it works since we only need to find the 10th
      */
