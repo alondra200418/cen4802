@@ -1,13 +1,13 @@
 /** Alondra
  * CEN4802 - Software Integration, Configuration, and Testing
  * Assignment 1
-        * 17 January 2026
+ * 17 January 2026
         */
 //The extra code displayed here was just me exploring
 public class Main {
     /**
      * Main Method. Calls Fibonacci Method.
-     * @param args - Is an Array of String containing vairables
+     * @param args - Is an Array of String containing variables
      */
     //private static long[] fibonacciCache;
     public static void main(String[] args) {
@@ -23,7 +23,7 @@ public class Main {
 
     /**
      * Is Performing the Fibonacci Sequence, given the variable of n.
-     * @param n - Number nth of the sequence and the method is trying to find the number of it.
+     * @param n - Number nth of the sequence, and the method is trying to find the number of it.
      * @return - Number in the nth position is defined because of its parameter.
      */
     /* The method long is used to calculate the fibonacci number; but long has a limit which is 9 quintillion and work
